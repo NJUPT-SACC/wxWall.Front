@@ -1,12 +1,4 @@
-## redis
-
-
-
-
----
-
-
- ## RESTFUL-API
+## RESTFUL-API
 --- 
  * 登陆请求
     - path:/login
