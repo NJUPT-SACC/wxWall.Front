@@ -1,0 +1,88 @@
+.loading-msg {
+    line-height: 87vh;
+    transition: opacity 1000ms ease-out;
+    -webkit-transition: opacity 1000ms ease-out;
+    opacity: 1;
+    &.leave {
+        opacity: 0
+    }
+}
+
+.msg {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 6.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#lottery-body {
+    height: 87vh;
+}
+
+.select-from {
+    margin: 3.5rem auto;
+    width: 250px;
+}
+
+.wrapper {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.selected-people {
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.selected {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.selected-person {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    flex: 0 0 33.3333333333%;
+    margin-bottom: 15px;
+    .lucky-avatar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        border-radius: 50%;
+        &-container {
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            margin: 5px auto;
+        }
+    }
+    .lucky-name {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.extra {
+    text-align: center;
+    margin: 15px auto;
+    margin-left: -15px;
+    .control+.control {
+        margin-left: 15px;
+    }
+}
